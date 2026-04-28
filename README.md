@@ -2,7 +2,7 @@
 
 A modern, fully-featured e-commerce application specializing in natural honey and bee products, built with React, TypeScript, and Tailwind CSS.
 
-## 🌟 Features
+## Features
 
 - **Product Catalog**: Browse various honey types, pollen, honeycomb, royal jelly, and propolis products
 - **Product Filtering & Sorting**: Filter by category and sort by name or price
@@ -14,7 +14,7 @@ A modern, fully-featured e-commerce application specializing in natural honey an
 - **Local Data Fallback**: Works with or without backend API
 - **Multi-language Support**: Content in Macedonian and English
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Tailwind CSS
 - **Routing**: React Router v7
@@ -25,7 +25,7 @@ A modern, fully-featured e-commerce application specializing in natural honey an
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS v4.1
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 src/
@@ -44,7 +44,7 @@ src/
 ├── utils/           # Utility functions and constants
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ npm run dev
 - `npm run test` - Run tests
 - `npm run generate-sitemap` - Generate sitemap.xml
 
-## 🏪 API Configuration
+## API Configuration
 
 The application can work with or without a backend API. Configuration is controlled in `src/utils/apiConfig.ts`:
 
@@ -106,7 +106,7 @@ export const API_CONFIG = {
 
 When `useApi` is `false`, the application uses local JSON files in the `src/data/` directory as fallback data.
 
-## 📊 Data Structure
+## Data Structure
 
 The application manages several types of data:
 
@@ -115,7 +115,7 @@ The application manages several types of data:
 - **Health Information**: Wellness content
 - **Orders**: Customer order management
 
-## 🎨 UI Components
+## UI Components
 
 The application uses a variety of UI components:
 
@@ -126,7 +126,7 @@ The application uses a variety of UI components:
 - **Image Zoom**: Medium-style image zoom for product details
 - **Contact Forms**: With email validation and submission
 
-## 📱 Supported Pages
+## Supported Pages
 
 - **Home**: Landing page with slideshow
 - **Shop**: Product catalog with filtering and sorting
@@ -141,7 +141,7 @@ The application uses a variety of UI components:
 - **Terms & Privacy**: Legal pages
 - **Bee Pollen & Propolis**: Specialized product pages
 
-## 🏗️ Architecture
+## Architecture
 
 - **State Management**: Custom React context for cart functionality
 - **API Layer**: Axios-based client with fallback to local JSON data
@@ -150,13 +150,13 @@ The application uses a variety of UI components:
 - **Error Handling**: Graceful error handling with fallbacks
 - **Accessibility**: Built with accessibility in mind using Headless UI
 
-## 📁 Data Folders
+## Data Folders
 
 - `/src/data/` - Contains JSON files for products, blog posts, health articles, and orders
 - `/src/data/images/` - Product images and other assets
 - `/public/` - Static assets like SVG icons
 
-## 🔧 Customization
+## Customization
 
 To customize the application:
 
@@ -165,7 +165,7 @@ To customize the application:
 3. **Add routes**: Modify `src/common/routes.tsx`
 4. **Change API endpoints**: Update `src/utils/apiConfig.ts`
 
-## 🚀 Deployment
+## Deployment
 
 For deployment, run:
 
@@ -175,7 +175,7 @@ npm run build
 
 The production-ready files will be in the `/dist/` folder. The application is configured for deployment on Vercel via `vercel.json`.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -183,18 +183,10 @@ The production-ready files will be in the `/dist/` folder. The application is co
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🐛 Issues
+## Issues
 
 If you encounter any issues, please open an issue in the GitHub repository with detailed information about the problem, including steps to reproduce.
-
-## 🙏 Acknowledgments
-
-- Built with [React](https://react.dev/)
-- Styled with [Tailwind CSS](https://tailwindcss.com/)
-- Icons from [Heroicons](https://heroicons.com/)
-- Components from [Headless UI](https://headlessui.com/)
-- UI notifications with [React Hot Toast](https://react-hot-toast.com/)
